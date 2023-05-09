@@ -5,6 +5,11 @@
     color: whitesmoke;
   }
 
+  .contact-title {
+    text-align: left;
+    margin-left: 10vw;
+  }
+
   .contact-message {
     text-align: left;
     margin-bottom: 20px;
