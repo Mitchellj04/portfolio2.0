@@ -35,3 +35,24 @@
     background: linear-gradient(#e66465, #9198e5);
     margin: 20px;
   }
+
+  @media only screen and (min-width: 768px) {
+    .about-me {
+        height: 80vh;
+        margin-top: 50vh;
+        color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+    .about-grid-iten{
+        margin-left: 25vw;
+    }
+
+    .about-box {
+        width: 75%;
+        margin-left: 10vw;
+        margin-top: 10px;
+      }
+  }
