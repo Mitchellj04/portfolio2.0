@@ -1,0 +1,37 @@
+.avatar {
+    align-items: center;
+  }
+  
+  .about-me {
+    height: 100%;
+    margin-top: 100vh;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .about-box {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .about-title {
+    text-align: left;
+    margin-left: 10vw;
+  }
+  
+  .about-text {
+    text-align: left;
+  }
+  
+  .about-contact {
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 20px;
+  }
+  
+  .about-resume {
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 20px;
+  }
