@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Justin Mitchell's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my professional portfolio website to display my projects. 
 
-## Available Scripts
+## About Me
 
 In the project directory, you can run:
 
