@@ -77,3 +77,13 @@
     margin-left: 10vw;
   }
   
+
+@media only screen and (min-width: 768px) {
+
+    .contact-message {
+        background-color: black;
+        text-align: left;
+        margin-bottom: 20px;
+        width: 50%;
+      }
+}
