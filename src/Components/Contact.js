@@ -37,8 +37,11 @@ const Contact = () => {
             <Grid item xs={6}>
                 <div className='form-div'>
                 <form className='form'>
+                    <label className='label'>Name</label>
                     <input type='text' className='textfield' halfWidth name='user_name' label='name' placeholder='name' variant='filled' style={{backgroundColor: 'grey'}}></input>
-                    <input type='text' className='textfield' halfWidth name='user_email' label='email' placeholder='email' variant='filled' type='email' style={{backgroundColor: 'grey'}}></input>
+                    <label className='label'>Email</label>
+                    <input className='textfield' halfWidth name='user_email' label='email' placeholder='email' variant='filled' type='email' style={{backgroundColor: 'grey'}}></input>
+                    <label className='label'>Message</label>
                     <textarea className='textarea' type='textarea' name='message' fullWidth label='message' variant='filled' style={{backgroundColor: 'grey'}}></textarea>
                     <Button className='form-button' variant='contained' fullWidth >Submit</Button>
                 </form>

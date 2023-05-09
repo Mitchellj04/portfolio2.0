@@ -7,7 +7,7 @@
 
   .contact-title {
     text-align: left;
-    margin-left: 10vw;
+    margin-left: 10rem;
   }
 
   .contact-message {
@@ -49,6 +49,7 @@
     outline: none;
     border-radius: 5px;
     border: 1px solid rgb(220, 220, 220);
+    color: white
   }
 
   .textfield .focus{
@@ -75,13 +76,10 @@
     margin: 20px;
   }
 
-  
-  
-  .contact-title {
-    text-align: left;
-    margin-left: 10vw;
-  }
-  
+ .label {
+    font-size: 15px;
+    margin-left: 20px;
+ }
 
 @media only screen and (min-width: 768px) {
 
