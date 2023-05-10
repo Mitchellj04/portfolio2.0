@@ -81,6 +81,16 @@
     margin-left: 20px;
  }
 
+ .success{
+    background-color: green;
+    color: whitesmoke;
+ }
+
+ .error{
+    background-color: red;
+    color: whitesmoke
+ }
+
 @media only screen and (min-width: 768px) {
 
     .contact-message {

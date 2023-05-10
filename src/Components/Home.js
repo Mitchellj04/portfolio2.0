@@ -13,7 +13,7 @@ const Home = () => {
         <Typography variant='h4'>
             Hello! I'm Justin Mitchell
         </Typography>
-        <Typography>Full-Stack Developer specializing in Frontend Developing</Typography>
+        <Typography >Full-Stack Developer specializing in Frontend Developing</Typography>
         
         <i  style={{fontSize: 70}} class="devicon-html5-plain-wordmark colored" ></i>
         <i  style={{fontSize: 70}} class="devicon-javascript-plain colored" ></i>

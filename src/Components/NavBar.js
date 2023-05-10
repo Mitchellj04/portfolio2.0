@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <div className='header'>
         <nav className='navbar' style={{ background: 'transparent', boxShadow: 'none'}}>
-                <a href='/' className='logo'><img src={logo}></img></a>
+                <Link to='home' spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}><img className='logo' src={logo}></img></Link>
                   <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
                     <li className='nav-item'><Link to="home" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Home</Link></li>
                     <li className='nav-item'><Link to="about" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>About</Link></li>
