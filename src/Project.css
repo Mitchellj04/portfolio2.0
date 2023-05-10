@@ -1,3 +1,7 @@
+.projects{
+  margin-top: 65vh;
+}
+
 .project-grid-container{
     height: 100%;
     width: 100%;
@@ -17,7 +21,7 @@
   }
   
   .project-card{
-    background: #674F87;
+    background: black;
     width: 100%;
   }
 
@@ -27,7 +31,7 @@
     }
 
     .project-card{
-        background: #674F87;
+        background: black;
         width: 75%;
         height: 100%;
       }

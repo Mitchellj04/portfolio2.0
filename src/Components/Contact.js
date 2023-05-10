@@ -34,16 +34,17 @@ const Contact = () => {
     <div style={{color: 'whitesmoke'}} className='contact' id='contact'> 
         <Typography variant='h3' style={{color: 'whitesmoke', textDecoration: 'underline', textDecorationColor: '#FE6140', textAlign: 'left', marginLeft: '10rem'}} className='contact-title'>Contact</Typography>
         <Grid container className='contact-grid'>
-            <Grid item xs={8} sm={4}>
+            <Grid className='message-grid' item xs={8} sm={4}>
+              <div className='message-div'>
                 <Box className='contact-message'>Please feel free to reach out to me by leaving a message. You can also contact my from the information below or my LinkedIn at the bottom of the page!</Box>
                 <Box className='contact-box'><Typography variant='h5' > <EmailIcon/>  Email </Typography>  <Typography> mitchelljm04@gmail.com  </Typography> </Box>
               
                 <Box className='contact-box'><Typography variant='h5'><LocalPhoneIcon />  Phone</Typography>   <Typography> 203-909-0635</Typography> </Box>
-               
+               </div>
                 
                
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid className='form-grid' item xs={12} sm={6}>
                 <div className='form-div'>
                 <form className='form' ref={form} onSubmit={sendEmail}>
                     <label className='label'>Name</label>

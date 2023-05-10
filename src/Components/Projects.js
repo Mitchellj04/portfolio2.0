@@ -20,7 +20,7 @@ console.log(projects)
 
   const displayProjects = projects.map((project) => {
       return <Grid item xs={12} sm={6} className='project-grid-item'>
-          <Card className='project-card' style={{background: '#212338', color: 'whitesmoke'}}>
+          <Card className='project-card' style={{background: 'black', color: 'whitesmoke'}}>
           <CardMedia component='img'image={project.image}></CardMedia>
           <CardContent className='project-text'>{project.description}</CardContent>
           <CardActions>
