@@ -1,8 +1,8 @@
-import { Alert, Box, Button, Grid, TextField, Typography } from '@mui/material'
+import { Alert, Box, Button, Fade, Grid, TextField, Typography } from '@mui/material'
 import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import emailjs from '@emailjs/browser';
-import React, {useRef, useState} from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 import '../Contact.css'
 import { TroubleshootOutlined } from '@mui/icons-material';
 
@@ -28,18 +28,7 @@ const Contact = () => {
               setError('Message could not be sent')
           });
       };
-    
-    const messages = () => {
-        if(sent === true){
-           return <Alert variant='success' className='success'>{success}</Alert>
-        }
-        else if (sent === false){
-           return <Alert variant='error' className='error'>{error}</Alert>
-        }
-        else {
 
-        }
-    }
 
   return (
     <div style={{color: 'whitesmoke'}} className='contact' id='contact'> 
@@ -65,7 +54,16 @@ const Contact = () => {
                     <textarea className='textarea' type='textarea' name="message"  fullWidth label='message' variant='filled' style={{backgroundColor: 'grey'}}></textarea>
                     <Button className='form-button' variant='contained' fullWidth type='submit' value='Send' style={{margin: '20px'}}>Submit</Button>
                 </form>
-                {messages}
+                <Fade
+                  in={sent} //Write the needed condition here to make it appear
+                  timeout={{ enter: 1000, exit: 1000 }} //Edit these two values to change the duration of transition when the element is getting appeared and disappeard
+                  addEndListener={() => {
+                    setTimeout(() => {
+                      setSent(null)
+                    }, 2000);
+                  }}>
+                    <Alert severity='success'>{success}</Alert>
+                </Fade>
                 </div>
             </Grid>
         </Grid>
