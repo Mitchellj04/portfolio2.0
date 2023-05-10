@@ -2,6 +2,7 @@ import { Avatar, Box, Typography } from '@mui/material'
 import React from 'react'
 import ParticleBackground from './Particles/ParticleBackground'
 
+
 const Home = () => {
   return ( 
   
@@ -9,7 +10,7 @@ const Home = () => {
     <div className='home-page' id='home'>
       <ParticleBackground />
       <Box className='home-box'>
-        <Avatar classsName='avatar' sx={{ height: '200px', width: '200px', alignItem: 'center', textAlign: 'center'}} src={'/portfoliophoto.jpg'} />
+        <Avatar classsName='avatar' sx={{ height: '200px', width: '200px', alignItem: 'center', textAlign: 'center', marginLeft: '40vw'}} src={'/portfoliophoto.jpg'} />
         <Typography variant='h4'>
             Hello! I'm Justin Mitchell
         </Typography>
