@@ -56,7 +56,7 @@ const Contact = () => {
                 </form>
                 <Fade
                   in={sent} //Write the needed condition here to make it appear
-                  timeout={{ enter: 1000, exit: 1000 }} //Edit these two values to change the duration of transition when the element is getting appeared and disappeard
+                  timeout={{ enter: 1000, exit: 3000 }} //Edit these two values to change the duration of transition when the element is getting appeared and disappeard
                   addEndListener={() => {
                     setTimeout(() => {
                       setSent(null)

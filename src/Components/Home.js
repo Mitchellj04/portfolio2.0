@@ -10,7 +10,7 @@ const Home = () => {
     <div className='home-page' id='home'>
       <ParticleBackground />
       <Box className='home-box'>
-        <Avatar classsName='avatar' sx={{ height: '200px', width: '200px', alignItem: 'center', textAlign: 'center', marginLeft: '40vw'}} src={'/portfoliophoto.jpg'} />
+        <Avatar classsName='avatar' sx={{ height: '200px', width: '200px', alignItem: 'center', textAlign: 'center', marginLeft: '15vw'}} src={'/portfoliophoto.jpg'} />
         <Typography variant='h4'>
             Hello! I'm Justin Mitchell
         </Typography>
