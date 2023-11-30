@@ -4,67 +4,56 @@ This is my professional portfolio website to display my projects.
 
 ## About Me
 
-In the project directory, you can run:
+Hello I am Justin Mitchell a software engineer focusing on Frontend Developing primarily in Javasciprt and React. I come from a business background allowing me to take crucial parts in both the development side of software while understanding the impact on the business it can have. I am a graduate of Flatiron School where I got hands on experience working with full-stack development projects and creating projects of my own hosted on this website.
 
-### `npm start`
+### Education 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+University of Rhode Island 
+BA - Entrepreneurship and Innovation 
+2017 - 2021
+GPA: 3.0
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Flatiron School 
+Bootcamp - Software Development 
+2022 - 2023
 
-### `npm test`
+### Experience 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Freelance Web Developer 
+Self Employed 
+2022 - Current 
+Responsibilities: 
+- Work with clients to update and maintain their exisiting web application 
+- Set meeting to outline goals and objectives to be met by a specific timeline
+- Improve websites design and accessibility to increase customer experience
 
-### `npm run build`
+Website Admin 
+Deltek Products Inc.
+2019 - 2022
+Responsibilities: 
+- Updated and maintained existing products to current pricing and descriptions
+- Created ads to be deployed on the website to promote new or existing product lines
+- Enhanced website meta data that increased probability of google search optimization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Javascipt
+- HTML 
+- CSS
+- React 
+- Redux 
+- Material UI
 
-### `npm run eject`
+Backend: 
+- Ruby 
+- Ruby on Rails 
+- PostgreSQL
+- AWS S3
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Other: 
+- Photoshop 
+- Excel 
+- Microsft Suite 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
