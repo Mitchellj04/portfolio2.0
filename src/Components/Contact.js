@@ -40,7 +40,12 @@ const Contact = () => {
                 <Box className='contact-box'><Typography variant='h5' > <EmailIcon/>  Email </Typography>  <Typography> mitchelljm04@gmail.com  </Typography> </Box>
               
                 <Box className='contact-box'><Typography variant='h5'><LocalPhoneIcon />  Phone</Typography>   <Typography> 203-909-0635</Typography> </Box>
-               </div>
+                <Box>
+                  <IconButton><Link href='https://github.com/Mitchellj04' target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: 30, color: 'whitesmoke'}}/></Link></IconButton>
+                  <IconButton><Link href='https://www.linkedin.com/in/justin-mitchell-887a47149/' target="_blank" rel="noopener noreferrer"><LinkedInIcon style={{fontSize: 30, color: 'whitesmoke'}}/></Link></IconButton>
+                  </Box>
+              </div>
+              
                 
                
             </Grid>
@@ -56,8 +61,8 @@ const Contact = () => {
                     <Button className='form-button' variant='contained' fullWidth type='submit' value='Send' style={{margin: '20px'}}>Submit</Button>
                 </form>
                 <Fade
-                  in={sent} //Write the needed condition here to make it appear
-                  timeout={{ enter: 1000, exit: 3000 }} //Edit these two values to change the duration of transition when the element is getting appeared and disappeard
+                  in={sent}
+                  timeout={{ enter: 1000, exit: 3000 }}
                   addEndListener={() => {
                     setTimeout(() => {
                       setSent(null)
